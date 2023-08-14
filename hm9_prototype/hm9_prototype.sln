@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm9_prototype", "hm9_prototype.csproj", "{1299AC5D-ECBA-4752-90E9-BA1D502253CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hm9_test", "..\hm9_test\hm9_test.csproj", "{974FB9CA-9366-4463-8496-11FF1FDE1D9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1299AC5D-ECBA-4752-90E9-BA1D502253CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1299AC5D-ECBA-4752-90E9-BA1D502253CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1299AC5D-ECBA-4752-90E9-BA1D502253CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1299AC5D-ECBA-4752-90E9-BA1D502253CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974FB9CA-9366-4463-8496-11FF1FDE1D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974FB9CA-9366-4463-8496-11FF1FDE1D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974FB9CA-9366-4463-8496-11FF1FDE1D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974FB9CA-9366-4463-8496-11FF1FDE1D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB099CFE-C22A-4980-A293-B21F485B9B40}
+	EndGlobalSection
+EndGlobal
