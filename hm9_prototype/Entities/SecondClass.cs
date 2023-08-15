@@ -34,6 +34,5 @@ namespace hm9_prototype.Entities
         {
             return base.ToString() + ", " + SecondName;
         }
-
     }
 }

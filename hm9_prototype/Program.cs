@@ -5,13 +5,13 @@ using System.Diagnostics;
 
 ThirdClass prototypeThirdClass = new ThirdClass();
 ThirdClass clonedThirdClass = (ThirdClass)prototypeThirdClass.Clone();
-Console.WriteLine("IClonable");
+Console.WriteLine("IClonable:");
 Console.WriteLine($"Прототип - {prototypeThirdClass}");
 Console.WriteLine($"Клон - {clonedThirdClass}");
 
 Console.WriteLine();
 ThirdClass clonedThirdClass_my = prototypeThirdClass.MyClone();
-Console.WriteLine("MyClonable");
+Console.WriteLine("MyClonable:");
 Console.WriteLine($"Прототип - {prototypeThirdClass}");
 Console.WriteLine($"Клон - {clonedThirdClass_my}");
 
