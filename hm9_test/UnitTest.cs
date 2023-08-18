@@ -33,8 +33,8 @@ namespace hm9_test
         public void MyRefNotEqualCloneTest()
         {
             var prototypeThirdClass = new ThirdClass();
-            var clonedThirdClass = (ThirdClass)prototypeThirdClass.Clone();
-            Assert.NotEqual(prototypeThirdClass, clonedThirdClass);
+            var clonedThirdClass_my = prototypeThirdClass.MyClone();
+            Assert.NotEqual(prototypeThirdClass, clonedThirdClass_my);
         }
     }
 }
