@@ -19,5 +19,22 @@ namespace hm9_test
             var clonedThirdClass_my = prototypeThirdClass.MyClone();
             Assert.Equal(prototypeThirdClass.ToString(), clonedThirdClass_my.ToString());
         }
+
+
+        [Fact]
+        public void RefNotEqualCloneTest()
+        {
+            var prototypeThirdClass = new ThirdClass();
+            var clonedThirdClass = (ThirdClass)prototypeThirdClass.Clone();
+            Assert.NotEqual(prototypeThirdClass, clonedThirdClass);
+        }
+
+        [Fact]
+        public void MyRefNotEqualCloneTest()
+        {
+            var prototypeThirdClass = new ThirdClass();
+            var clonedThirdClass = (ThirdClass)prototypeThirdClass.Clone();
+            Assert.NotEqual(prototypeThirdClass, clonedThirdClass);
+        }
     }
 }
